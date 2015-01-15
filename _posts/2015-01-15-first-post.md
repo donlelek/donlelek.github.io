@@ -1,3 +1,9 @@
+---
+layout: post
+title: First Post
+comments: True
+---
+
 # A simple personal Blog
 
 I made this blog using [Jekyll](http://jekyllrb.com), and Poole, See Poole in action with [the demo site](http://demo.getpoole.com).
