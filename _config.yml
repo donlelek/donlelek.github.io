@@ -16,3 +16,9 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/donlelek/donlelek.github.io/
+
+# More
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
