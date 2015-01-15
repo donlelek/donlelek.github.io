@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Post
-comments: True
+comments: true
 ---
 
 # A simple personal Blog
