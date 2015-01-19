@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R users: add a pipe operator shortcut to SublimeText
+title: Add a pipe operator shortcut to SublimeText (for R users)
 comments: true
 ---
 
