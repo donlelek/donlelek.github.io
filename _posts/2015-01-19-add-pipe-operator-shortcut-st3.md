@@ -13,9 +13,9 @@ You can add a custom keybinding by opening sublime *Preferences* menu and select
 Just paste the following code in the above mentioned file and save it.  
 
 ```  
-[
-	{ "keys": ["super+shift+m"], "command": "insert_snippet", "args": {"contents": "%>%"}
-}
+[  
+	{ "keys": ["super+shift+m"], "command": "insert_snippet", "args": {"contents": "%>%"}  
+}  
 ]
 ```
 
