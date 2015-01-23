@@ -97,7 +97,7 @@ I think I've managed to do what I wanted in a few lines of code so let's wrap up
 	        geom   = "line")  
 
 
-![Simple plot](https://dl.dropboxusercontent.com/u/128600/Screenshot%202015-01-23%2014.45.15.png)
+![Simple plot](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-01-23%2014.45.15.png)
 
 
 Thanks for reading, Cheers!
