@@ -12,14 +12,14 @@ You can add a custom keybinding by opening sublime *Preferences* menu and select
 
 Just paste the following code in the above mentioned file and save it.  
 
-```  
-[  
-  { "keys": ["super+shift+m"], "command": "insert_snippet", "args": {"contents": "%>%"}, "context": [
-    { "key": "selector", "operator": "equal", "operand": "source.r" }
-    ]  
-  }  
-]
-```
+	```  
+		[  
+		  { "keys": ["super+shift+m"], "command": "insert_snippet", "args": {"contents": "%>%"}, 	"context": [
+		    { "key": "selector", "operator": "equal", "operand": "source.r" }
+		    ]  
+		  }  
+		]
+	```
 
 This will insert the ``%>%`` string each time the ``Command + Shift + M`` key combination is pressed. I'm working on making it available only when editing R scripts <del>but haven't found a solution yet...</del> maybe you can help!
 
