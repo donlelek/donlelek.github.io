@@ -60,13 +60,16 @@ What I want to do here can be described in the following steps:
 
 Let's do it!
 
- 
-	library(tidyr)
+        library(tidyr)
 
-	cases <- ts %>%                                           # assign everything to a new table                       
-	  gather(., "C", "N", 3:18) %>%                           # from columns 3 to 18 put the name of the variable in column "C" and the value of the cell in "N"  
-	  separate(., C, c("Type", "Country"), sep = "_") %>%     # split the string in "C" at the "_" sign and put the results in "Type" and "Country"    
-	  filter(N != "NA")                                       # get rid of the NA's  
+	# assign everything to a new table                       
+	cases <- ts %>%                                           
+	  # from columns 3 to 18 put the name of the variable in column "C" and the value of the cell in "N"  
+	  gather(., "C", "N", 3:18) %>%                           
+	  # split the string in "C" at the "_" sign and put the results in "Type" and "Country"    
+	  separate(., C, c("Type", "Country"), sep = "_") %>%     
+	  # get rid of the NA's  
+	  filter(N != "NA")                                       
 	  
 	  glimpse(cases)   # let's peek  
 
