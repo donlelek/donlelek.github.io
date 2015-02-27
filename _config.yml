@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Donlelek
-tagline:          A personal blog
+tagline:          a blog about... 
 url:              http://donlelek.github.io
 paginate:         1
 baseurl:          /
