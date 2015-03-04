@@ -162,4 +162,4 @@ As a more detailed recommendation, my own set up is Mendeley (sync of files turn
 
 Finally, the guys at Docear have also made [very detailed](http://www.docear.org/2014/01/15/comprehensive-comparison-of-reference-managers-mendeley-vs-zotero-vs-docear/) comparison between their product and their competitors Zotero and Mendeley, it worths taking some time to read it (including the comments). 
 
-Thanks for reading. :fish:
+Thanks for reading.
