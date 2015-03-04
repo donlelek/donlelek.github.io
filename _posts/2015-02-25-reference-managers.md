@@ -13,7 +13,9 @@ I tried to narrow down my focus to the context of the academia and soon enough I
 
 ## The analysis
 
-I used the database to explore the preferences of the participants in the forum. I used **R** for all my analyses, here is some code. 
+I used the database to explore the preferences of the participants in the forum. I used **R** for all my analyses, here is some code. <!--- and a comment -->
+
+[//]: # (and anothe comment)
 
 	library(RCurl)  
 	library(dplyr)  
