@@ -13,9 +13,7 @@ I tried to narrow down my focus to the context of the academia and soon enough I
 
 ## The analysis
 
-I used the database to explore the preferences of the participants in the forum. I used **R** for all my analyses, here is some code. <!--- and a comment -->
-
-[//]: # (and anothe comment)
+I used the database to explore the preferences of the participants in the forum. I used **R** for all my analyses, here is some code.
 
 	library(RCurl)  
 	library(dplyr)  
@@ -67,6 +65,7 @@ It looks like the higher the score the less popular is the suggestion, or more p
 
 Finally let's take a look at what are the most common suggestions by making a ranking of the recommendations that had more than one supporter.
 
+```r
 	# table: most recommended
 	data %>% 
 	  select(Recommend) %>% 
@@ -74,6 +73,7 @@ Finally let's take a look at what are the most common suggestions by making a ra
 	  tally() %>% 
 	  filter(n > 1) %>% 
 	  arrange(desc(n))
+```
 
 the code above resulted in the following table:
 
