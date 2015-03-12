@@ -3,6 +3,7 @@ layout: post
 title: (Another) Best reference manager for academics
 comments: true
 ---
+
 ## Best reference manager for academics (Includes a recommendation)
 
 While there is no shortage of articles about what is the best reference manager, I wanted to know what is the recommended option for scholars. I started with a comparison chart in [wikipedia](http://www.wikiwand.com/en/Comparison_of_reference_management_software) and then wandered the web in search for advice. 
@@ -44,22 +45,22 @@ It may be more clear if we get the average RG Score by reference manager, let's 
 	  summarise(Score = mean(RG.Score)) %>%
 	  arrange(desc(Score))
 
-|    Recommended Reference Manager |  Average RG Score |
-|----|----|
-| endnote + refworks | 72.41 |
-| suggested a list   | 58.46 |
-| paperpile          | 28.61 |
-| reference manager  | 25.87 |
-| papers             | 24.41 |
-| pasteref           | 23.20 |
-| endnote            | 19.13 |
-| zotero             | 12.05 |
-| docear             | 10.89 |
-| mendeley           |  9.19 |
-| refworks           |  7.64 |
-| jabref             |  6.39 |
-| wizfolio           |  2.08 |
-| citavi             |  0.75 |
+| Recommended Reference Manager |  Average RG Score |
+|----                           |----               |
+| endnote + refworks            | 72.41             |
+| suggested a list              | 58.46             |
+| paperpile                     | 28.61             |
+| reference manager             | 25.87             |
+| papers                        | 24.41             |
+| pasteref                      | 23.20             |
+| endnote                       | 19.13             |
+| zotero                        | 12.05             |
+| docear                        | 10.89             |
+| mendeley                      |  9.19             |
+| refworks                      |  7.64             |
+| jabref                        |  6.39             |
+| wizfolio                      |  2.08             |
+| citavi                        |  0.75             |
 
 It looks like the higher the score the less popular is the suggestion, or more probably, the less common suggestions have only one or two backers with high RG Score. This may also mean (and the graph suggest it is that way) that the most common suggestions have a wide spread in reputation.
 
@@ -79,7 +80,7 @@ the code above resulted in the following table:
 
 
  |Recommended Reference Manager | N° of Recommendations  |
- |----|----|
+ |----      |----|
  | EndNote  | 11 |
  | Mendeley | 10 |
  | Zotero   | 10 |

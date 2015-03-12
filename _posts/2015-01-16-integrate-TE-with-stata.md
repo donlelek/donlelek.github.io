@@ -11,7 +11,7 @@ I've been using Stata for almost a year now and I like it a lot, but the integra
 
 ### Choose a text editor
 
-I will be focusing on [Sublime Text](www.sublimetext.com/3) (free and cross-platform) and [Notepad++](http://notepad-plus-plus.org) (free and open-source, Windows only) but there is plenty of [alternatives](http://lifehacker.com/five-best-text-editors-1564907215).
+I will be focusing on [Sublime Text](http://www.sublimetext.com/3) (free and cross-platform) and [Notepad++](http://notepad-plus-plus.org) (free and open-source, Windows only) but there is plenty of [alternatives](http://lifehacker.com/five-best-text-editors-1564907215).
 
 
 ### Notepad++
