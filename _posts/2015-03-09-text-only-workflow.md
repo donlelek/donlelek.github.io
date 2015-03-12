@@ -90,6 +90,7 @@ You can paste the above "code" and you will get:
 ### this is a subsubsection... you get it (you can put up to 6 #)
 
 *this is italic*  
+
 **this is bold**
 
 - this is
@@ -247,9 +248,8 @@ Change that to `your_file.pdf` and you will get a PDF, Pandoc transforms the fil
 
 You can check the MS Word file that resulted from running Pandoc in the source document of this post (you guessed well, a markdown file) in [here](https://dl.dropboxusercontent.com/u/128600/posts/text-only-work-flow.docx).
 
-[newwinlogo]: http://i.stack.imgur.com/B8Zit.png
 
-If you are in Windows you can open your command prompt by pressing <kbd>![Windows Key][newwinlogo]</kbd> + <kbd>R</kbd> and running the `cmd` command. Once in the terminal use `cd` to [navigate your file system](http://www.watchingthenet.com/how-to-navigate-through-folders-when-using-windows-command-prompt.html).
+If you are in Windows you can open your command prompt by pressing `Windows + R` and running the `cmd` command. Once in the terminal use `cd` to [navigate your file system](http://www.watchingthenet.com/how-to-navigate-through-folders-when-using-windows-command-prompt.html).
 
 If you are running Mac or Linux you probably know how to do this, if not go [here](http://linuxcommand.org/lts0020.php).
 
