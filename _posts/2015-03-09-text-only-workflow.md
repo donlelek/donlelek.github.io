@@ -86,7 +86,9 @@ You can paste the above "code" and you will get:
 * * * 
 
 # this is a section
+
 ## this is a subsection
+
 ### this is a subsubsection... you get it (you can put up to 6 #)
 
 *this is italic*  
