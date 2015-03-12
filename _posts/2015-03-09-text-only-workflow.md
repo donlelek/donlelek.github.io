@@ -84,20 +84,21 @@ It is best to stick to very simple formatting, and probably you won't need much 
 You can paste the above "code" and you will get:
 
 * * * 
+
 # this is a section
 ## this is a subsection
 ### this is a subsubsection... you get it (you can put up to 6 #)
 
-*this is italic*
+*this is italic*  
 **this is bold**
 
 - this is
 - an unnumbered
-- list (you can also use * or + as markers)
+- list (you can also use * or + as markers)  
 
 1. and this is a
 2. numbered 
-3. list
+3. list  
 
 > this is a quote
 
@@ -137,7 +138,7 @@ Equations can be included using LaTeX syntax and surrounding the term in `$your 
 
 Is typesetted as:
 
-![](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-12%2013.41.12.png){width=250px}
+![](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-12%2018.03.28.png)
 
 Images can be included using almost the same syntax as links, if the link is in it's own paragraph, Pandoc will use the text within the square brackets as the figure caption and automatic addition of the prefix *Figure N.* if you output a PDF.
 
@@ -164,7 +165,7 @@ Another option is to include comments "inside" the same file. Markdown does not 
 
 	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
-The chunk I commented out will not be displayed in Word or PDF files but even if it's not displayed will be included in HTML source files, to prevent this you can use the Pandoc specific `<!---this comment will not make it to the HTML file-->`.
+The chunk I commented out will not be displayed in Word or PDF files but even if it's not displayed will be included in HTML source files, to prevent this you can use the Pandoc specific `<!---this comment will not make it into the HTML file-->`.
 
 ### Bibliography and Citations
 
@@ -244,7 +245,7 @@ The generic instruction goes like this:
 
 Change that to `your_file.pdf` and you will get a PDF, Pandoc transforms the file according to its extension. You can also combine multiple markdown files in one output file, just add them after `your_file.md`. 
 
-You can check the MS Word file result of running Pandoc in the source document of this post (you guessed well, a markdown file) in [here](https://dl.dropboxusercontent.com/u/128600/posts/text-only-work-flow.docx).
+You can check the MS Word file that resulted from running Pandoc in the source document of this post (you guessed well, a markdown file) in [here](https://dl.dropboxusercontent.com/u/128600/posts/text-only-work-flow.docx).
 
 [newwinlogo]: http://i.stack.imgur.com/B8Zit.png
 
