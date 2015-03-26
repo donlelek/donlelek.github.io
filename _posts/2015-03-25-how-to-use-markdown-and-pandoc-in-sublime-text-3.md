@@ -125,7 +125,7 @@ You access the configuration file through the menu `Preferences > Package settin
 
 Note that both   `"--latex-engine=/usr/texbin/pdflatex"` and `"--filter", "/usr/local/bin/pandoc-citeproc"` have to be specified with the full path.
 
-## Wrap-up
+# Wrap-up
 
 This post shows you how to work without leaving ST3 for the preparation of manuscripts, the setup takes some time but after you are done, everything will be so much faster.
 
