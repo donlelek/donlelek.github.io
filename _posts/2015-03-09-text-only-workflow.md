@@ -259,6 +259,6 @@ Finally, many more options for Pandoc can be found in the [User's guide](http://
 
 # Advanced Set-up
 
-In my next post I will be talking about how to use Markdown and Pandoc in Sublime Text 3 which rounds up the work-flow nicely.
+In my [next post](http://donlelek.github.io/2015/03/25/how-to-use-markdown-and-pandoc-in-sublime-text-3/) I will be talking about how to use Markdown and Pandoc in Sublime Text 3 which rounds up the work-flow nicely.
 
 Thanks for reading.
