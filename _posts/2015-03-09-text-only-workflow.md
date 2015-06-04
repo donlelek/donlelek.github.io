@@ -20,7 +20,7 @@ If you are supervising someone, how do you know the work is being done, how do y
 
 # What do you need?
 
-> **Super easy setup:** Install Rstudio and use the [R Markdown syntax](http://rmarkdown.rstudio.com/), no need for extra packages or software. Even if you don't use **R** this is so easy to install and use that you may want to just use this. If your work-flow revolves around **R**, read no further, just download the [cheat-sheet](http://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) and check how to make [citations and insert a bibliography](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). (Update: Actually you need to install a Tex distro if you want to typeset PDF documents, not a deal breaker though.)
+> **Super easy setup:** Install Rstudio and use the [R Markdown syntax](http://rmarkdown.rstudio.com/), no need for extra packages or software. Even if you don't use **R** this is so easy to install and use that you may want to just use this. If your work-flow revolves around **R**, read no further, just download the [cheat-sheet](http://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) and check how to make [citations and insert a bibliography](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). (Update: Actually you need to install a Tex distro if you want to typeset PDF documents, not a deal breaker though. Update2: I found a [great R Markdown tutorial!](http://www.introductoryr.co.uk/Reproducibility/Markdown_guide.html))
 
 For a more general approach this is what you will need:
 
