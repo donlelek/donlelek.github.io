@@ -4,9 +4,9 @@ relative_permalinks: true
 
 # Setup
 title:            Donlelek
-tagline:          a blog about... 
+tagline:          a blog about things I do
 url:              http://donlelek.github.io
-paginate:         1
+paginate:         3
 baseurl:          /
 author:
   name:           Derek Price
