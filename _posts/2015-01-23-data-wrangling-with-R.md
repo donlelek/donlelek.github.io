@@ -25,7 +25,6 @@ resulted in **Error in file(file, "rt") : cannot open the connection**. After so
 
 {% highlight r %}
 
-
 library(RCurl)  
 
 library(dplyr)  
