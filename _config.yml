@@ -3,7 +3,7 @@ permalink:        pretty
 
 # Setup
 title:            Donlelek
-tagline:          a blog about things I do
+tagline:          things I do, things I like
 url:              http://donlelek.github.io
 paginate:         3
 baseurl:          /
