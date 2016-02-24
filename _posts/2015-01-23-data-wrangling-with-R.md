@@ -31,7 +31,8 @@ library(dplyr)
 x <- getURL("https://raw.githubusercontent.com/cmrivers/ebola/master
 /country_timeseries.csv")    
 
-ts <- tbl_df(read.csv(text = x))  #import as data table  
+#import as data table  
+ts <- tbl_df(read.csv(text = x))  
 
 {% endhighlight %}	
 
@@ -83,7 +84,8 @@ cases <- ts %>%
   # get rid of the NA's  
   filter(N != "NA")                                       
   
-  glimpse(cases)   # let's peek  
+  # let's peek  
+  glimpse(cases)   
 
 {% endhighlight %}	
 
