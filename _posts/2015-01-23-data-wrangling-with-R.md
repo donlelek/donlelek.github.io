@@ -14,8 +14,12 @@ I found a great Ebola dataset compiled by [Caitlin Rivers](https://github.com/cm
 ### Get the the data
 
 The first challenge was getting the data. Even stored as a `csv` file this was not a straight forward task since 
-	
-	read.csv("https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv")
+
+{% highlight r %}
+
+read.csv("https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv")
+
+{% endhighlight %}	
 
 resulted in **Error in file(file, "rt") : cannot open the connection**. After some research I found that the proper way of importing a `csv` from an *URL* is using `getURL` from the `RCurl` package. My final code for importing the data looks like this:
 
