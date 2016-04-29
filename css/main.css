@@ -26,7 +26,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #F48FB1;
+  color: #E91E63;
 }
 blockquote {
   color: #808080;
@@ -115,7 +115,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #8BC34A;
 }
 
 @media only screen and (min-width: 768px) {
