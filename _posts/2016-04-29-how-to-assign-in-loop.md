@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Short post: How to assign within a loop
+title: How to assign within a loop
 comments: true
 ---
-
 
 You probably heard that you shouldn't use loops in R a thousand times by now, but there are some times you can't avoid it. I recently *had* to implement a loop to generate a new variable in a dataset; the problem, how do I create the new variable and then put it back in a data.frame? Use `assign`
 
