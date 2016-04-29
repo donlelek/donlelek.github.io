@@ -11,23 +11,23 @@ code example:
 
 {% highlight r %}
 
-# create an empty dataset
-df <- data.frame(obs = 1:10)
+    # create an empty dataset
+    df <- data.frame(obs = 1:10)
+    
+    # create a list of values (strings) to iterate through
+    clist <- list("a", "b", "c")
+    
+    # here comes the loop
+    for (i in clist) {
+      # in each loop assign the values to a variable matching
+      # the string corresponding to the actual iteration
+      assign(i, rnorm(10))
+    
+    # use mget to put the vector back in the dataframe
+    df <- data.frame(df, mget(i))
+    }
 
-# create a list of values (strings) to iterate through
-clist <- list("a", "b", "c")
-
-# here comes the loop
-for (i in clist) {
-  # in each loop assign the values to a variable matching
-  # the string corresponding to the actual iteration
-  assign(i, rnorm(10))
-
-# use mget to put the vector back in the dataframe
-df <- data.frame(df, mget(i))
-}
-
-{% enhighlight %}
+{% endhighlight %}
 
 There must be a million ways of doing this in a more efficient way, but this works great for a smallish dataset.
 
