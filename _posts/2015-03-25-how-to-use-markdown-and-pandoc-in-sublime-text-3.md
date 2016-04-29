@@ -54,11 +54,15 @@ This extension has two functions. When you press `F10` you will be able to searc
 
 Before that you have to configure the  `CiteBibtex.sublime-settings` file with the path to your BibTeX file. You access this file through the menu `Preferences > Package settings > CiteBibtex > Settings - User`.
 
+{% highlight json%}
+
 	{
 	    	"bibtex_file": "path/to/bibtex.bib",
 	    	"autodetect_syntaxes": {"Markdown Extended": "pandoc",
 		},
 	}
+
+{% endhighlight %}	
 
 The second feature of this extension is the ability to extract the citations in your current document and generate a new BibTeX file with the same name as your document within the same folder. You do this by invoking the *Command pallete* and choosing **"CiteBibtex: extract citations in current file"**.
 
@@ -71,6 +75,9 @@ Finally, we arrived to the most useful extension. After you finish the configura
 ![Pandoc](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-25%2009.50.19.png)
 
 You access the configuration file through the menu `Preferences > Package settings > Pandoc > Settings - User`. I recommend the following configuration to be able to export to HTML, PDF and DOCX, it works perfectly on a Mac and fine in my Debian Laptop. You have to tweak the paths to make it work on windows.
+
+
+{% highlight json %}
 
 	{
 	  "default": {
@@ -122,6 +129,8 @@ You access the configuration file through the menu `Preferences > Package settin
 	  }
 
 	}
+
+{% endhighlight %}	
 
 Note that both   `"--latex-engine=/usr/texbin/pdflatex"` and `"--filter", "/usr/local/bin/pandoc-citeproc"` have to be specified with the full path.
 

@@ -20,6 +20,8 @@ For this example I will be reproducing Example 1.4 "A causal diagram of factors 
 
 Let's start by using *mermaid*:
 
+{% highlight r %}	
+
 	library(DiagrammeR)
 
 	mermaid("
@@ -33,10 +35,13 @@ Let's start by using *mermaid*:
 	        O-->F
 	        M-->F
 	        ")
+{% endhighlight %}	
 
 ![default](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.14.09.png)
 
 That looks good but since I am trying to reproduce what is in the book, I want to get rid of the boxes, for this we define a style for each node (white fill and white border).
+
+{% highlight r %}	
 
 	        mermaid("
 	        graph LR
@@ -56,9 +61,13 @@ That looks good but since I am trying to reproduce what is in the book, I want t
 	        style F fill:#FFFFFF, stroke-width:0px
 	        ")
 
+{% endhighlight %}
+
 ![white](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.14.53.png)
 
 The same can be achieved with the flexible and nicer but more complicated graphViz:
+
+{% highlight r %}
 
 	grViz("
 	digraph causal {
@@ -87,6 +96,8 @@ The same can be achieved with the flexible and nicer but more complicated graphV
 	  # Graph
 	  graph [overlap = true, fontsize = 10]
 	}")
+
+{% endhighlight %}	
 
 ![graphViz](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.15.30.png)
 
