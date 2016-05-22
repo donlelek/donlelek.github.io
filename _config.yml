@@ -70,9 +70,9 @@ google_analytics: "UA-1012669-1"
 # Output options (more information on Jekyll's site)
 timezone: "America/Halifax"
 markdown: kramdown
-highlighter: pygment
+highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 3
+paginate: 5
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

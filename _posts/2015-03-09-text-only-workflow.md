@@ -210,6 +210,7 @@ Just paste all of them in a single text file and save it as a document with exte
 
 If you don't have too many references and you want to share them easily, it may be advantageous to keep them *in* the document itself. For this you can use the YAML syntax to keep a bibliography, like this:
 
+``` yaml
 	---
 	references:
 	- id: fenner2012
@@ -229,6 +230,7 @@ If you don't have too many references and you want to share them easily, it may 
 	    year: 2012
 	    month: 3
 	---
+```
 
 Note that the **key** now is in the `id:` field that does not have to go on the first line, though it can.
 

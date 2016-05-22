@@ -15,15 +15,15 @@ I found a great Ebola dataset compiled by [Caitlin Rivers](https://github.com/cm
 
 The first challenge was getting the data. Even stored as a `csv` file this was not a straight forward task since 
 
-{% highlight r %}
+``` r
 
-read.csv("https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv")
+    read.csv("https://raw.githubusercontent.com/cmrivers/ebola/master/country_timeseries.csv")
 
-{% endhighlight %}	
+```
 
 resulted in **Error in file(file, "rt") : cannot open the connection**. After some research I found that the proper way of importing a `csv` from an *URL* is using `getURL` from the `RCurl` package. My final code for importing the data looks like this:
 
-{% highlight r %}
+``` r
 
 library(RCurl)  
 
@@ -34,7 +34,7 @@ x <- getURL("https://raw.githubusercontent.com/cmrivers/ebola/master
 #import as data table  
 ts <- tbl_df(read.csv(text = x))  
 
-{% endhighlight %}	
+```	
 
 Now lets get a look at what we have using `glimpse(ts)`
 
@@ -71,7 +71,7 @@ What I want to do here can be described in the following steps:
 
 Let's do it!
 
-{% highlight r %}
+``` r
 
 library(tidyr)
 
@@ -87,7 +87,7 @@ cases <- ts %>%
   # let's peek  
   glimpse(cases)   
 
-{% endhighlight %}	
+```	
 
 	Variables:    
 	$ Date    (fctr) 1/5/2015, 1/4/2015, 1/3/2015, 12/31/2014,...  
@@ -98,7 +98,7 @@ cases <- ts %>%
 
 I think I've managed to do what I wanted in a few lines of code so let's wrap up this post with a quick plot.
 
-{% highlight r %}
+``` r
   
 library(ggplot2)  
 qplot(data     = cases,  
@@ -109,7 +109,7 @@ qplot(data     = cases,
         facets = . ~ Type,  
         geom   = "line")  
 
-{% endhighlight %}	
+```	
 
 
 ![Simple plot](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-01-23%2014.45.15.png)

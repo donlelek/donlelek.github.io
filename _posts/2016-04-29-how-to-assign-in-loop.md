@@ -8,7 +8,7 @@ You probably heard that you shouldn't use loops in R a thousand times by now, bu
 
 code example:
 
-{% highlight r %}
+``` r
 
     # create an empty dataset
     df <- data.frame(obs = 1:10)
@@ -26,7 +26,7 @@ code example:
     df <- data.frame(df, mget(i))
     }
 
-{% endhighlight %}
+```
 
 There must be a million ways of doing this in a more efficient way, but this works great for a smallish dataset.
 
