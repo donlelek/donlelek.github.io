@@ -17,6 +17,13 @@ p a {
   /* text-decoration: underline */
   color: #009688;
 }
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #E91E63;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Pontano sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
