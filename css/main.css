@@ -20,7 +20,7 @@ p a {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #E91E63;
+  color: #111111;
   background-color: #ffffff;
   border-radius: 4px;
 }
@@ -30,10 +30,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 a {
   color: #111111;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
   color: #E91E63;
+  text-decoration: underline;
 }
 blockquote {
   color: #808080;
