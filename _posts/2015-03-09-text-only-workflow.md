@@ -211,25 +211,25 @@ Just paste all of them in a single text file and save it as a document with exte
 If you don't have too many references and you want to share them easily, it may be advantageous to keep them *in* the document itself. For this you can use the YAML syntax to keep a bibliography, like this:
 
 ``` yaml
-	---
-	references:
-	- id: fenner2012
-	  title: One-click science marketing
-	  author:
-	  - family: Fenner
-	    given: Martin
-	  container-title: Nature Materials
-	  volume: 11
-	  URL: 'http://dx.doi.org/10.1038/nmat3283'
-	  DOI: 10.1038/nmat3283
-	  issue: 4
-	  publisher: Nature Publishing Group
-	  page: 261-263
-	  type: article-journal
-	  issued:
-	    year: 2012
-	    month: 3
-	---
+---
+references:
+- id: fenner2012
+  title: One-click science marketing
+  author:
+  - family: Fenner
+    given: Martin
+  container-title: Nature Materials
+  volume: 11
+  URL: 'http://dx.doi.org/10.1038/nmat3283'
+  DOI: 10.1038/nmat3283
+  issue: 4
+  publisher: Nature Publishing Group
+  page: 261-263
+  type: article-journal
+  issued:
+    year: 2012
+    month: 3
+---
 ```
 
 Note that the **key** now is in the `id:` field that does not have to go on the first line, though it can.
