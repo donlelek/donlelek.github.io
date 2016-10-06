@@ -32,7 +32,7 @@ I love dark wallpapers, they are both nice and save energy, [specially if your p
                                                 "x^2 + y^2 == 9",
                                                 "y == abs(-2*x)",
                                                 "x == -3*abs(sin(y))")))
-    ```
+```
 
 The second part is interesting and I learned a lot trying to achieve the look I wanted. While trying to put all letters in one row using `facet_grid` I found some limitations on how you specify "free" scales, using a grid means a common scale has to be used for each row and column, the solution is using `facet_wrap` with `nrow = 1` instead. This works because in `facet_wrap` each plot is independent. Another thing I learned is how you can use the option `labeller = label_parsed` to use formulas in the facet title. 
 
