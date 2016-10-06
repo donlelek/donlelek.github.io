@@ -69,4 +69,4 @@ ggsave("~/love_android.png", width = 19.20, height = 10.80, dpi = 100)
 Hope you liked it.
 Cheers!
 
-[1]: https://github.com/donlelek/donlelek.github.io/tree/master/img/posts/love_android.png
+[1]: https://dl.dropboxusercontent.com/u/128600/posts/love_android.png
