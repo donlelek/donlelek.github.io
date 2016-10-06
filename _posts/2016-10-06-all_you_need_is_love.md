@@ -6,7 +6,7 @@ comments: true
 
 I recently stumbled into [this thread in stackoverflow](http://stackoverflow.com/questions/39870405/plotting-equations-in-r) and got inspired to design my own android wallpaper. 
 
-![love_android.png][1]
+![love_android.png](https://dl.dropboxusercontent.com/u/128600/posts/love_android.png)
 
 I love dark wallpapers, they are both nice and save energy, [specially if your phone has an AMOLED screen](https://www.androidpit.com/how-black-wallpaper-can-save-your-battery). I used [Axeman's answer](http://stackoverflow.com/a/39871049/4654047) but the other answer was great too. The first part is just generating the relevant data frames.
 
@@ -69,4 +69,3 @@ ggsave("~/love_android.png", width = 19.20, height = 10.80, dpi = 100)
 Hope you liked it.
 Cheers!
 
-[1]: https://dl.dropboxusercontent.com/u/128600/posts/love_android.png
