@@ -18,6 +18,7 @@ p a {
   color: #2196F3;
 }
 code {
+  font-family: 'Monaco', monospace;
   padding: 2px 4px;
   font-size: 90%;
   color: #111111;
