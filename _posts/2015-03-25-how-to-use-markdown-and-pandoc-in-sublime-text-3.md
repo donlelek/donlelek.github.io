@@ -6,7 +6,7 @@ comments: true
 
 # A follow up on *"How to: Achieve a text-only work-flow"*
 
-In the previous [post](http://donlelek.github.io/2015-03-09-text-only-workflow/) I described the minimum requirements to be able to achieve a text-only workflow using [**Markdown**](http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html) and [**Pandoc**](http://johnmacfarlane.net/pandoc/). 
+In the previous [post](http://donlelek.github.io/2015-03-09-text-only-workflow/) I described the minimum requirements to be able to achieve a text-only workflow using [**Markdown**](http://daringfireball.net/projects/markdown) and [**Pandoc**](http://johnmacfarlane.net/pandoc/). 
 
 I mentioned that there is a *"Super easy setup"* option using [**Rstudio**](http://rmarkdown.rstudio.com/) as your only tool to achieve this (specially useful if you use R), but I also promised to show a more general approach using [Sublime Text 3](http://www.sublimetext.com/3) along with some extensions to automatize the process.
 
