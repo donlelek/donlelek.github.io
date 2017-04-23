@@ -42,7 +42,7 @@ When package control is installed you just invoke the *Command pallete* with the
 
 This is currently the most complete Markdown syntax highlighter for ST3 since it supports almost all Markdown specific syntax (with the exception of `<!--html comments-->` and `~~strikethrough~~` text) along with other languages when they are included in fenced blocks, like the following screenshot:
 
-![Example](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-24%2015.55.33.png) 
+![Imgur](http://i.imgur.com/rzc8UVD.png)
 
 ### CiteBibtex
 
@@ -50,7 +50,7 @@ This is currently the most complete Markdown syntax highlighter for ST3 since it
 
 This extension has two functions. When you press `F10` you will be able to search and insert a citation from a central BibTeX file.
 
-![Screenshot](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-25%2009.32.37.png)
+![Imgur](http://i.imgur.com/z4KSzd1.png)
 
 Before that you have to configure the  `CiteBibtex.sublime-settings` file with the path to your BibTeX file. You access this file through the menu `Preferences > Package settings > CiteBibtex > Settings - User`.
 
@@ -71,7 +71,7 @@ The second feature of this extension is the ability to extract the citations in 
 
 Finally, we arrived to the most useful extension. After you finish the configuration you will be able to summon Pandoc from the *Command pallete* and choose what kind of document you want to convert your markdown file to.
 
-![Pandoc](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-25%2009.50.19.png)
+![Imgur](http://i.imgur.com/f1o5ZOh.png)
 
 You access the configuration file through the menu `Preferences > Package settings > Pandoc > Settings - User`. I recommend the following configuration to be able to export to HTML, PDF and DOCX, it works perfectly on a Mac and fine in my Debian Laptop. You have to tweak the paths to make it work on windows.
 

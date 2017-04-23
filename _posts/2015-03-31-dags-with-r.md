@@ -37,7 +37,7 @@ Let's start by using *mermaid*:
 	        ")
 ```	
 
-![default](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.14.09.png)
+![Imgur](http://i.imgur.com/gUp57Hr.png)
 
 That looks good but since I am trying to reproduce what is in the book, I want to get rid of the boxes, for this we define a style for each node (white fill and white border).
 
@@ -63,7 +63,7 @@ That looks good but since I am trying to reproduce what is in the book, I want t
 
 ```
 
-![white](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.14.53.png)
+![Imgur](http://i.imgur.com/JRSOR2V.png)
 
 The same can be achieved with the flexible and nicer but more complicated graphViz:
 
@@ -99,7 +99,7 @@ The same can be achieved with the flexible and nicer but more complicated graphV
 
 ```
 
-![graphViz](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-31%2016.15.30.png)
+![Imgur](http://i.imgur.com/EYU3pcg.png)
 
 I got a very similar, yet a reflection of the original figure in the book.
 

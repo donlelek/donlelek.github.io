@@ -35,7 +35,7 @@ After I imported the database I made, I wandered if there was any association be
 	      size = Impact.Points)
 
 The code above results in this plot:
-![ref manager recommendation by Research Gate Score](https://dl.dropboxusercontent.com/u/128600/posts/RGRefManPref.png)
+![Imgur](http://i.imgur.com/a6VBZIz.png)
 
 It may be more clear if we get the average RG Score by reference manager, let's tabulate this.
 

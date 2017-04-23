@@ -112,7 +112,7 @@ qplot(data     = cases,
 ```	
 
 
-![Simple plot](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-01-23%2014.45.15.png)
+![Imgur](http://i.imgur.com/6WgAHsw.png)
 
 
 Thanks for reading, Cheers!

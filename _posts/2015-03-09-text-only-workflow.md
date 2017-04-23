@@ -141,14 +141,15 @@ Equations can be included using LaTeX syntax and surrounding the term in `$your 
 
 Is typesetted as:
 
-![](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-12%2018.03.28.png)
+![Imgur](http://i.imgur.com/a8Y5grA.png)
 
 Images can be included using almost the same syntax as links, if the link is in it's own paragraph, Pandoc will use the text within the square brackets as the figure caption and automatic addition of the prefix *Figure N.* if you output a PDF.
 
 	![Ebola cases and deaths](ebola.png)
 
 The above code results in:
-![Ebola cases and deaths](https://dl.dropboxusercontent.com/u/128600/posts/Screenshot%202015-03-12%2014.09.54.png)
+
+![Imgur](http://i.imgur.com/TqfjlZO.png)
 
 ### Code and Comments
 
