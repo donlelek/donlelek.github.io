@@ -18,13 +18,13 @@ I will be focusing on [Sublime Text](http://www.sublimetext.com/3) (free and cro
 
 **Download and install Notepad:** note that these instructions are for Windows only.
 
-**Enable Stata syntax-highlighting:** go to the [user defined languages](http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=User_Defined_Language_Files) page, look for 'Stata' and download the corresponding ``xml`` file, save it in your *downloads* folder. Open Notepad++ and in the *Language* menu select *Define your language*, then press the *Import* button, select your source file and you are done.  
-(*Update* the provided link is not working, but you can get a copy [here](https://code.google.com/p/notepad-stats-integration/source/browse/userdefineLang_stata.xml)).
+**Enable Stata syntax-highlighting:** go to the [user defined languages](http://docs.notepad-plus-plus.org/index.php/User_Defined_Language_Files) page, look for 'Stata' and download the corresponding ``xml`` file, save it in your *downloads* folder. Open Notepad++ and in the *Language* menu select *Define your language*, then press the *Import* button, select your source file and you are done.  
+(*Update*: the provided link is not working, but you can get a copy [here](https://bitbucket.org/keithk/notepad-stats-integration/raw/6e97c67298a56e55480392599db6bd9e72add667/userdefineLang_stata.xml)).
 
 **Install and configure Rundolines:** for this implementation we will be using a small program called ``rundolines``,  you can find the program and general instructions on how to install it in [Friedrich Huebler's page](http://huebler.blogspot.ca/2008/04/stata.html)
 
 The short version is:  
-- Download the program from [here](https://www.dropbox.com/s/58jiwvol59y619e/rundolines41.zip)  
+- Download the program from [here](https://www.dropbox.com/s/58jiwvol59y619e/rundolines41.zip) (*Update*: you will need another version for Stata 14, check Friedrich's page) 
 - Unzip it in your ADO personal directory (usualy ``C:\ado\personal`` )   
 - Edit the the ``INI`` files:  
 `` stata "C:\Program Files\Stata13\StataSE.exe" `` should match your path  
@@ -48,7 +48,7 @@ Easy peasy, lemon squeezy!
 
 ### My 2 cents
 
-Notepad++ may be easier to use and personalize; however, personally I prefer Sublime text, I think it looks better and the overall experience feels more polished, plus I can use it in OS X and Windows and Linux (to some extent).  
+Notepad++ may be easier to use and personalize; however, I prefer Sublime text, I think it looks better and the overall experience feels more polished, plus I can use it in OS X, Windows, and Linux (to some extent).  
 
 Enjoy!!
 
